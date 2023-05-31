@@ -25,7 +25,7 @@ const SingleProduct = () => {
   console.log(typeof id);
   useEffect(() => {
     handleFilter();
-  }, []);
+  }, [id]);
   return (
     <HeadComponent sx={{ mt: 13 }}>
       <Box
